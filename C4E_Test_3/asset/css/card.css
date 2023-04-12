@@ -1,0 +1,33 @@
+.card-container {
+    width: 300px;
+    height: 180px;
+    border: 1px solid white;
+    border-radius: 12px;
+    background: #FBFCFF;
+}
+
+.card-container:hover {
+    border: 1px solid #BFC8E5;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tag {
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid #BFC8E6;
+    border-radius: 10px;
+    background: #FFFFFF;
+    padding: 0 12px 2px 12px;
+    color: #516FD4;
+    line-height: 20px
+}
